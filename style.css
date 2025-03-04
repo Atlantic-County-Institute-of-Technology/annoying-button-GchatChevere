@@ -1,7 +1,9 @@
+
+
 #button1{
     position:absolute;
-    top: 285px;
-    left: 850px;
+    top: 292px;
+    left: 843px;
     height: 200px;
     width: 200px;
     padding: 10px 10px;
@@ -13,12 +15,12 @@
 }
 
 .buttonbase{
-    position: relative;
+    position: absolute;
     height: 250px;
     width: 250px;
     border-radius: 50%;
     background-color: grey;
-    top: 167px;
+    top: 267px;
     left: 817px;
 }
 .buttonbase::after{
@@ -33,7 +35,7 @@
     right: -15px;
 }
 
-#button2{
+/*#button2{
     position:absolute;
     height: 200px;
     width: 200px;
@@ -67,18 +69,23 @@
     z-index: -11;
     top: -14px;
     left: -15px;
+} (all css for second button im not using this yet)*/
+
+body{
+    background-color: blanchedalmond;
+    text-align: center ;
 }
 
 #response{
-    position:relative;
-    height:50px;
-    width:1050px;
-    top: 160px;
-    left: 897px;
+    position:absolute ;
     border-width:5px ;
     border-color: black;
 }
 
-body{
-    background-color:blanchedalmond;
+.glow{
+    border-color:yellow ;
+}
+
+.happy{
+    background-color:#00FF00;
 }

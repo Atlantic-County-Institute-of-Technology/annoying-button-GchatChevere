@@ -1,7 +1,10 @@
 
 let button1 = document.getElementById("button1");
-let button2 = document.getElementById("button2");
 let text = document.getElementById("response");
+let button2 = document.getElementById("button2");
+let text1 = document.getElementById("response2");
+
+
 
 let clicks = 0;
 
@@ -12,28 +15,36 @@ function annoy() {
     if(clicks == 5) {
         text.innerHTML = "Ouch!";
     }
-
-    if(clicks == 9) {
+    
+    else if(clicks == 9) {
         text.innerHTML = "I swear to clicky click click";
     }
-
-    if(clicks == 14) {
+    
+    else if(clicks == 14) {
         text.innerHTML = "that was the last click";
     } 
-
-    if(clicks == 19) {
+    
+    else if(clicks == 19) {
         text.innerHTML = "";
     } 
-
-    if(clicks == 20) {
+    
+    else if(clicks == 20) {
         button1.innerHTML = "Recalibrating";
     } 
-
-    if(clicks == 29) {
+    
+    else if(clicks == 29) {
+        button1.style.backgroundColor = "#00FF00";
+        button1.style.borderColor ="yellow"
         button1.innerHTML = "Recalibration Finished";
     }   
-    if(clicks == 30) {
-        button1.innerHTML = button2.innerHTML;
-    } 
- 
+    else if(clicks == 34) {
+        button1.style.backgroundColor = "#00FF00";
+        button1.style.borderColor ="black"
+    }   
+    else if(clicks == 32) {
+    }   
+    
+    else if(clicks == 40) {
+        text.innerHTML = "if you touch me one more time i swear i will murder your family" ;
+    }   
 }
