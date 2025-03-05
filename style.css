@@ -1,6 +1,6 @@
 
 
-#button1{
+.button1{
     position:absolute;
     top: 292px;
     left: 843px;
@@ -73,10 +73,10 @@
 
 body{
     background-color: blanchedalmond;
-    text-align: center ;
+    text-align: center;
 }
 
-#response{
+.response{
     position:absolute ;
     border-width:5px ;
     border-color: black;
@@ -85,7 +85,68 @@ body{
 .glow{
     border-color:yellow ;
 }
-
 .happy{
-    background-color:#00FF00;
+    background-color:#00FF00 ;
 }
+
+.movement1{
+    position:absolute;
+  top: 100px;  
+  left:100px;
+}
+
+.move1{
+    position:absolute;
+  top: 78px;  
+  left:75px;
+}
+
+.movement2{
+    position:absolute;
+  top: 400px;  
+  left:300px;
+}
+
+.move2{
+    position:absolute;
+  top: 378px;  
+  left:275px;
+}
+
+.movement3{
+    position:absolute;
+  top: 700px;  
+  left:600px;
+  width: 60px;
+  height:60px;
+  border-radius:60%;
+}
+
+.move3{
+    top: 40px;
+    left:340px;
+}
+
+.movement4{
+    position:absolute;
+    top: 292px;
+    left: 843px;
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-color: black;
+    background-color: red;
+    z-index: 1;
+}
+
+.move4{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: grey;
+    top: 267px;
+    left: 817px;
+}   
