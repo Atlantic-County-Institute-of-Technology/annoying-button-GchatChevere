@@ -4,7 +4,8 @@ let buttonbase = document.getElementById("buttonbase");
 let text = document.getElementById("response");
 let button2 = document.getElementById("button2");
 let text1 = document.getElementById("response2");
-
+let sound = new Audio('assets/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-e-lutador.mp3');
+let click = new Audio('assets/dry-fart.mp3');
 
 
 let clicks = 0;
@@ -12,6 +13,7 @@ let clicks = 0;
 button1.addEventListener("click" , annoy);
 
 function annoy() {
+    click.play();
     clicks += 1
     if(clicks == 1) {
         text.innerHTML = "Ouch!";
@@ -74,6 +76,22 @@ function annoy() {
         button1.classList.add ("movement4");
         buttonbase.classList.add("move4")
         text.innerHTML = "OKAY IM DONE"
+    }
+
+    else if(clicks == 13) {
+        sound.play();
+    }
+
+    else if(clicks == 14) {
+        text.innerHTML = "TRY TO GET ME NOW!"
+        button1.classList.add("rage")
+        buttonbase.classList.add("rage")
+    }
+
+    else if(clicks == 15) {
+        text.innerHTML = "I HAD FUN!"
+        button1.classList.remove("rage")
+        buttonbase.classList.remove("rage")
     }
 
 }

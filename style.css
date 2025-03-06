@@ -1,4 +1,12 @@
 
+@keyframes rage{
+    from {
+        transform: rotate(360deg) translateX(10.8px) rotate(900deg);
+        }
+        to {
+          transform: rotate(60deg) translateX(700px) rotate(-760deg);
+          }
+      }
 
 .button1{
     position:absolute;
@@ -12,6 +20,10 @@
     border-color: black;
     background-color: red;
     z-index: 1;
+}
+
+.rage {
+    animation: rage 0.002s linear infinite; 
 }
 
 .buttonbase{
