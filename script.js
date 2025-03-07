@@ -78,20 +78,29 @@ function annoy() {
         text.innerHTML = "OKAY IM DONE"
     }
 
-    else if(clicks == 13) {
+    /*else if(clicks == 13) {
         sound.play();
-    }
+    }*/
 
-    else if(clicks == 14) {
+    else if(clicks == 13) {
         text.innerHTML = "TRY TO GET ME NOW!"
         button1.classList.add("rage")
         buttonbase.classList.add("rage")
+        sound.play();
+        text.innerHTML = "OKAY IM DONE"
+
     }
 
     else if(clicks == 15) {
-        text.innerHTML = "I HAD FUN!"
+        text.innerHTML = "Wait! Waht??? NO WAY how could this be possible!"
         button1.classList.remove("rage")
         buttonbase.classList.remove("rage")
+    }
+
+    else if(clicks == 16) {
+        text.innerHTML = ("Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quibusdam explicabo exercitationem beatae a, cupiditate illo at minima esse id praesentium? Laborum nostrum fuga obcaecati, non repellendus hic aut aliquid.</div>")
+        button1.classList.add("god")
+        buttonbase.classList.add("god")
     }
 
 }

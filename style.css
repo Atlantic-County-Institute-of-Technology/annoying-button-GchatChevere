@@ -7,6 +7,15 @@
           transform: rotate(60deg) translateX(700px) rotate(-760deg);
           }
       }
+      
+      @keyframes god{
+        from {
+            transform: translateY(-10.8px);
+            }
+            to {
+              transform: translateY(-900px);
+              }
+          }
 
 .button1{
     position:absolute;
@@ -20,6 +29,11 @@
     border-color: black;
     background-color: red;
     z-index: 1;
+}
+
+.god{
+    animation: god 10s 10s infinite ease-out ; 
+
 }
 
 .rage {
