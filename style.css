@@ -1,5 +1,5 @@
 
-@keyframes rage{
+/*instant transmition*/@keyframes rage{
     from {
         transform: rotate(360deg) translateX(10.8px) rotate(900deg);
         }
@@ -10,13 +10,13 @@
       
       @keyframes god{
         from {
-            transform: translateY(-10.8px);
+            transform: rotate(2deg)  translateX(-250.8px) rotate(22222222222222222222222222222222222222222226999999999999999999999999999999999999999999999999999999999999990deg);
             }
             to {
-              transform: translateY(-900px);
+              transform: rotate(60222222222222222222222222222222deg) translateX(200px) rotate(62202222222222222222222deg) ;
               }
           }
-
+/*my button css and alittle bit of the movement settings*/
 .button1{
     position:absolute;
     top: 292px;
@@ -32,12 +32,12 @@
 }
 
 .god{
-    animation: god 10s 10s infinite ease-out ; 
+    animation: god .00001s .000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001s infinite ease-out ; 
 
 }
 
 .rage {
-    animation: rage 0.002s linear infinite; 
+    animation: rage .0002s linear infinite; 
 }
 
 .buttonbase{
@@ -101,20 +101,27 @@ body{
     background-color: blanchedalmond;
     text-align: center;
 }
-
+/*text*/
 .response{
     position:absolute ;
     border-width:5px ;
     border-color: black;
 }
-
+/* recalibration */
 .glow{
     border-color:yellow ;
 }
+
+.glow_{
+    border-color:rgb(255, 8, 0) ;
+}
+
 .happy{
     background-color:#00FF00 ;
 }
 
+
+/*teleportation code*/
 .movement1{
     position:absolute;
   top: 100px;  
